@@ -3,4 +3,4 @@ LABEL maintainer="Nicolas Lenz <nicolas@eisfunke.com"
 
 RUN apk --no-cache add inkscape
 
-CMD ["inkscape"]
+ENTRYPOINT ["inkscape"]
